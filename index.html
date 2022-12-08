@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+    <title>Evgeniya's Internship Task</title>
+</head>
+
+<body>
+    <nav>
+        <div class="top-line">
+            <img class="top-line" id="top-line" src="images/line2.png" alt="lineImage">
+        </div>
+        <div>
+            <img id="logo" src="images/logo.png" alt="logo">
+        </div>
+    </nav>
+
+    <div class="caption">
+        <a id="likeABosch" href="https://www.bosch.com/stories/hightech-likeabosch/">High-tech #LikeABosch</a>
+    </div>
+
+    <div class="products">
+
+        <div class="outer">
+            <div class="container">
+
+                <!-- item 1 -->
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/gard.png" alt="item-image">
+                    </div>
+                    <button data-modal="garden">Lawnmower</button>
+                </div>
+
+                <!-- item 2 -->
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/robotic.png" alt="item-image">
+                    </div>
+                    <button data-modal="robotic">Robotic Lawnmower</button>
+                </div>
+
+                <!-- item 3 -->
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/hedgecutter.png" alt="item-image">
+                    </div>
+                    <button data-modal="hedgecutter">Hedgecutter</button>
+                </div>
+
+
+                <!-- item 4 -->
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/blower.png" alt="item-image">
+                    </div>
+                    <button data-modal="blower">Cordless Leaf Blower</button>
+                </div>
+
+
+                <!-- item 5 -->
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/plumps.png" alt="item-image">
+                    </div>
+                    <button data-modal="plumps">Cordless Rainwater Pumps</button>
+                </div>
+
+                <!-- item 6 -->
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="images/unit.png" alt="item-image">
+                    </div>
+                    <button data-modal="unit">Pump Unit Accessory</button>
+                </div>
+
+                <!-- POPUPS -->
+
+                <!-- item 1 -->
+
+                <div class="modal" id="garden">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px;"
+                            src="images/gard.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>LAWNMOWER</b></h3>
+
+                        <!-- star rating -->
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="font-size:12px;">SKU:23456575</span>
+
+
+                        <h4><b>Rotak 32 R</b></h4>
+                        <h4><b>About</b></h4>
+                        <span>For easy mowing – quick results, right to the edge</span>
+                        <ul>
+                            <li>A 1,200 W Powerdrive motor for reliable cuts, even in challenging situations</li>
+                            <li>GrassCombs ensure neat results along edges, driveways, fences, and walls</li>
+                            <li>Ergoflex handles for a comfortable and healthy working position</li>
+                            <li>Ideal for small- to medium-sized lawns</li>
+                            <li>A 31-litre grass box allows for easy disposal of grass clippings</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- item 2 -->
+
+                <div class="modal" id="robotic">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px; padding-top: 20px;"
+                            src="images/robotic.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>ROBOTIC LAWNMOWER</b></h3>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="font-size:12px ;">SKU:54748494</span>
+                        
+
+                        <h4><b>Indego XS 300</b></h4>
+                        <span>Robotic lawnmower for those smaller gardens up to 300 m²</span>
+                        <ul>
+                            <li>Indego XS 300 with LogiCut maps the lawn and cuts in efficient parallel lines freeing up
+                                your lawn sooner.</li>
+                            <li>With the AUTO Calendar Function Indego XS 300 automatically calculates a tailored mowing
+                                schedule.</li>
+                            <li>With MultiArea Indego can save in its memory up to three lawn areas (combined total of
+                                300 m²).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- item 3 -->
+
+                <div class="modal" id="hedgecutter">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px; padding-top: 20px;"
+                            src="images/hedgecutter.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>HEDGECUTTER</b></h3>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="font-size:12px ;">SKU:648390302</span>
+
+                        <h4><b>Universal HedgeCut 50</b></h4>
+                        <span>Trim medium-sized hedges with ease and 80% less noise</span>
+                        <ul>
+                            <li>ProSilence enables powerful performance with 80% noise reduction to 91 dB(A)</li>
+                            <li>50-cm blade length and 26-mm tooth spacing design for heavy trimming work</li>
+                            <li>Efficient 480 W motor and cutting power for impressive performances</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- item 4 -->
+
+                <div class="modal" id="blower">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px; padding-top: 20px;"
+                            src="images/blower.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>CORDLESS LEAF BLOWER</b></h3>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span style="font-size:12px ;">SKU:524374949</span>
+
+                        <h4><b>ALB 18 LI</b></h4>
+                        <span>The lightweight and convenient garden blower</span>
+                        <ul>
+                            <li>18 V Li-ion battery for cordless freedom with up to 17 minutes runtime</li>
+                            <li>Lightweight (1.8 kg) and ergonomic design for comfortable handling</li>
+                            <li>Up to 210 km/h airspeed for fast and efficient work</li>
+                            <li>Easy clearing of leaves and garden foliage from patio and garden areas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- item 5 -->
+
+                <div class="modal" id="plumps">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px; padding-top: 20px;"
+                            src="images/plumps.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>CORDLESS RAINWATER PUMPS</b></h3>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="font-size:12px ;">SKU:536272882</span>
+
+                        <h4><b>GardenPump 18V-2000</b></h4>
+                        <span>Faster garden watering from a rainwater tank</span>
+                        <ul>
+                            <li>Suitable for a wide range of open-top rainwater tanks and those covered with safety lids
+                            </li>
+                            <li>Wall and tank attachments included for a range of rainwater tank locations</li>
+                            <li>Timer function with three settings for use with sprinklers and irrigation systems</li>
+                            <li>Powerful operation up to 25 metres, ideal for most gardens</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- item 6 -->
+                <div class="modal" id="unit">
+                    <button class="close">BUY NOW</button>
+                    <button class="close-x">&times;</button>
+                    <div class="info-picture" id="info-picture"><img
+                            style="height: auto; width: 80%; object-fit: contain; margin: 0 auto; border-radius: 10px; padding-top: 20px;"
+                            src="images/unit.png"></div>
+                    <div class="info-text" id="info-text">
+                        <h3><b>CORDLESS RAINWATER PUMPS</b></h3>
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="font-size:12px ;">SKU:324253637</span>
+
+                        <h4><b>Pump Unit Accessory</b></h4>
+                        <span>Expanded garden watering from multiple rainwater butts</span>
+                        <ul>
+                            <li>Maximised rainwater collection for extensive garden watering</li>
+                            <li>Most eco-friendly solution for plant and flower irrigation</li>
+                            <li>Flexible attachment to any available water tank with the GardenPump 18 battery</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+
+</body>
+
+</html>
